@@ -1,7 +1,8 @@
 import React from 'react';
-import { Route, Link } from 'react-router-dom'
-import Home from '../home'
-import About from '../about'
+import { Route, Link } from 'react-router-dom';
+import Home from '../home';
+import About from '../about';
+import { Navbar, Jumbotron, Button } from 'react-bootstrap';
 
 const App = () => (
   <div>
@@ -15,6 +16,6 @@ const App = () => (
       <Route exact path="/about-us" component={About} />
     </main>
   </div>
-)
+);
 
-export default App
+export default App;
